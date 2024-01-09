@@ -1,0 +1,48 @@
+<VRTDataset rasterXSize="46742" rasterYSize="22329">
+  <SRS dataAxisToSRSAxisMapping="1,2">PROJCS["WGS 84 / UTM zone 29N",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",-9],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","32629"]]</SRS>
+  <GeoTransform> -1.6415798004280576e+06,  5.0830928176808655e+01,  0.0000000000000000e+00,  4.6754232898973189e+06,  0.0000000000000000e+00, -5.0830928176808655e+01</GeoTransform>
+  <VRTRasterBand dataType="Float32" band="1">
+    <NoDataValue>nan</NoDataValue>
+    <ColorInterp>Gray</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">25S_20220101-20230101.tif_portugal.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="7068" RasterYSize="17938" DataType="Float32" BlockXSize="7068" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="7068" ySize="17938" />
+      <DstRect xOff="0" yOff="0" xSize="7278.78535178742" ySize="18472.9558065029" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">26S_20220101-20230101.tif_portugal.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="14487" RasterYSize="19644" DataType="Float32" BlockXSize="14487" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="14487" ySize="19644" />
+      <DstRect xOff="2715.21603668913" yOff="483.132718411489" xSize="14715.0180189212" ySize="19953.1865785662" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">28S_20220101-20230101.tif_portugal.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="12417" RasterYSize="18498" DataType="Float32" BlockXSize="12417" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="12417" ySize="18498" />
+      <DstRect xOff="25372.7697704241" yOff="4068.87277585004" xSize="12257.2158363983" ySize="18259.9644472655" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">29S_20220101-20230101.tif_portugal.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10355" RasterYSize="17833" DataType="Float32" BlockXSize="10355" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="10355" ySize="17832.8101072528" />
+      <DstRect xOff="36555.6929034366" yOff="4787.70108330133" xSize="10185.727834815" ySize="17541.2989166987" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">29T_20220101-20230101.tif_portugal.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="9809" RasterYSize="4790" DataType="Float32" BlockXSize="9809" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="9808.98888824665" ySize="4790" />
+      <DstRect xOff="37093.3576870686" yOff="161.187099885716" xSize="9648.64231293139" ySize="4711.69834174444" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+</VRTDataset>
